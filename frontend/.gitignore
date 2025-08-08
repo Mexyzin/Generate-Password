@@ -1,0 +1,50 @@
+# Arquivo .gitignore para um projeto Front-end com Vite e React
+
+## Dependências
+# Ignora a pasta que armazena todos os pacotes do npm.
+# Ela é recriada com o comando "npm install".
+/node_modules
+
+## Arquivos de Ambiente e Configuração Local (MUITO IMPORTANTE)
+# Ignora arquivos de variáveis de ambiente que contêm segredos ou configurações
+# específicas da máquina local, como URLs de API.
+.env
+.env.*
+!.env.example
+
+# Ignora outros arquivos de configuração local.
+*.local
+
+## Pasta de Build de Produção
+# Ignora as pastas geradas pelo comando "npm run build".
+# Contêm o código otimizado para produção, não o código-fonte.
+/dist
+/dist-ssr
+
+## Cache do Vite
+# Ignora a pasta de cache gerada pelo servidor de desenvolvimento do Vite.
+/.vite/
+
+## Logs
+# Ignora arquivos de log gerados pelo npm, yarn, ou outras ferramentas.
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+## Arquivos de Editor e Sistema Operacional
+# Ignora configurações específicas do VSCode, exceto as extensões recomendadas.
+.vscode/*
+!.vscode/extensions.json
+
+# Ignora arquivos de outras IDEs e do sistema.
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store

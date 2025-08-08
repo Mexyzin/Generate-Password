@@ -1,0 +1,18 @@
+{
+  "name": "gerador-de-senhas-backend",
+  "version": "1.0.0",
+  "description": "API para o gerador de senhas",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7"
+  }
+}

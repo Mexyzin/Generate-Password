@@ -1,0 +1,54 @@
+# --------------------
+# Dependências
+# --------------------
+/backend/node_modules
+/frontend/node_modules
+
+# --------------------
+# Build / dist
+# --------------------
+/frontend/dist
+/frontend/dist-ssr
+
+# --------------------
+# Ambiente
+# --------------------
+/backend/.env
+/frontend/.env
+/frontend/.env.*
+!/frontend/.env.example
+
+# --------------------
+# Banco de dados (backend)
+# --------------------
+/backend/database.sqlite
+/backend/database.sqlite-journal
+
+# --------------------
+# Cache do Vite
+# --------------------
+/frontend/.vite/
+
+# --------------------
+# Logs
+# --------------------
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# --------------------
+# Arquivos de sistema e IDE
+# --------------------
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
